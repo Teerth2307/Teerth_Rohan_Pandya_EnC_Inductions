@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MPU-6050_foot")(type "KiCad")(uri "C:/Users/teert/Documents/kratos/PCB/libraries/MPU-6050_foot.pretty")(options "")(descr ""))
+)

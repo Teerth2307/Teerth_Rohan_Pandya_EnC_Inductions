@@ -1,0 +1,127 @@
+31702280741269
+RF_Antenna
+AVX_M620720
+868Mhz, 915Mhz ISM antenna, 6 x 2 x 1.08mm, http://datasheets.avx.com/ethertronics/AVX-E_M620720.pdf
+868 915 Mhz ISM antenna
+0
+6
+3
+RF_Antenna
+Abracon_APAES868R8060C16-T
+Abracon RHCP ceramic patch antenna 854-882Mhz, 5dBi
+APAES patch antenna
+0
+1
+1
+RF_Antenna
+Abracon_PRO-OB-440
+Abracon OnBoard SMD antenna 2400-2500Mhz, https://abracon.com/datasheets/PRO-OB-440.pdf
+2400 PRO-OB-440 Antenna
+0
+4
+4
+RF_Antenna
+Abracon_PRO-OB-471
+OnBoard 868/915/868+2400 MHz Antenna, https://abracon.com/datasheets/PRO-OB-471.pdf
+Antenna ProAnt OnBoard 868Mhz 915Mhz 2400Mhz
+0
+6
+6
+RF_Antenna
+Antenova_SR4G013_GPS
+GPS/GLONASS/Galileo/BeiDou antenna, 1559-1609Mhz, SMD, https://www.application-datasheet.com/pdf/antenova/sr4g013.pdf
+antenna GPS Antenova Beltii
+0
+5
+2
+RF_Antenna
+Astrocast_AST50127-00
+L-band patch antenna, https://docs.astrocast.com/dl/0534-DOC-M2M-ASTRO-Patch_Antenna-Datasheet.pdf
+L-band antenna astrocast Patch Antenna
+0
+1
+1
+RF_Antenna
+Coilcraft_MA5532-AE_RFID
+RFID Transponder Coil
+antenna rfid coilcraft
+0
+2
+2
+RF_Antenna
+Johanson_2450AT18x100
+Johanson 2450AT43F0100 SMD antenna 2400-2500Mhz, -0.5dBi, https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf
+antenna
+0
+2
+2
+RF_Antenna
+Johanson_2450AT18x100_2400-2500Mhz
+Johanson 2450AT43F0100 SMD antenna 2400-2500Mhz, -0.5dBi, https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf
+antenna
+0
+2
+2
+RF_Antenna
+Johanson_2450AT43F0100
+Johanson 2450AT43F0100 SMD antenna 2400-2500Mhz, 1dBi, https://www.johansontechnology.com/datasheets/2450AT43F0100/2450AT43F0100.pdf
+antenna
+0
+2
+2
+RF_Antenna
+Johanson_2450AT43F0100_2400-2500Mhz
+Johanson 2450AT43F0100 SMD antenna 2400-2500Mhz, 1dBi, https://www.johansontechnology.com/datasheets/2450AT43F0100/2450AT43F0100.pdf
+antenna
+0
+2
+2
+RF_Antenna
+Molex_47948-0001_2.4Ghz
+SMD antenna 2400-2500Mhz, 3.7dBi, https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/productspecificationpdf/479/47948/PS-47948-001-001.pdf?inline
+rf antenna
+0
+4
+2
+RF_Antenna
+NiceRF_SW868-TH13_868Mhz
+868Mhz copper string antenna, right angle, approx. 15mm coil length, 5.5mm OD, 0.8 wire diameter, https://www.nicerf.com/item/868mhz-spring-antenna-sw868-th13
+antenna rf
+0
+1
+1
+RF_Antenna
+Pulse_W3000
+Pulse Electronics W3000 tri-band antenna for GPS (1.575Ghz), 868Mhz and 2.4Ghz ISM bands, https://productfinder.pulseeng.com/products/datasheets/W3000.pdf
+Antenna GPS 868Mhz ISM 1.575Ghz
+0
+2
+2
+RF_Antenna
+Pulse_W3011
+Pulse RF Antenna, 4mm Clearance
+antenna rf
+0
+3
+2
+RF_Antenna
+Texas_SWRA117D_2.4GHz_Left
+http://www.ti.com/lit/an/swra117d/swra117d.pdf
+PCB antenna
+0
+2
+2
+RF_Antenna
+Texas_SWRA117D_2.4GHz_Right
+http://www.ti.com/lit/an/swra117d/swra117d.pdf
+PCB antenna
+0
+2
+2
+RF_Antenna
+Texas_SWRA416_868MHz_915MHz
+http://www.ti.com/lit/an/swra416/swra416.pdf
+PCB antenna
+0
+20
+1
