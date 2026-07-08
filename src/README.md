@@ -86,7 +86,7 @@ Doing the complex calculations like finding tan inverse.
 Used AI to check if solution was correct.
 
 **Known Limitations:**
-IDoesn't work in real as we ignore slip angles.
+Doesn't work in real as we ignore slip angles.
 
 ### For Problem 2:
 
