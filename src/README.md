@@ -91,23 +91,23 @@ I couldn't find any.
 ### For Problem 2:
 
 **Approach:**
-* Calculated X and Y distances from centers of rotation to compute tangent steering angles.
-* Subscribed to `/cmd_vel`.
-* Calculated velocity and steering angle for each wheel using rigid body kinematics.
-* Enforced ±90° steering limits.
-* Published commands to hardware controllers.
+Calculated X and Y distances from centers of rotation to compute tangent steering angles.
+Subscribed to `/cmd_vel`.
+Calculated velocity and steering angle for each wheel using rigid body kinematics.
+Enforced ±90° steering limits.
+Published commands to hardware controllers.
 
 **Assumptions:**
-* No wheel slipping or any slip angles.
-* Runs on a 2D plane.
+No wheel slipping or any slip angles.
+Runs on a 2D plane.
 
 **Challenges:**
-* Writing Python code from known Double Ackermann geometry.
+Writing Python code from known Double Ackermann geometry.
 
 **Testing Implementation:**
-* Used `teleop_twist_keyboard` alongside the controller node to manually drive the rover in Gazebo.
-* Verified visually that the script works.
+Used `teleop_twist_keyboard` alongside the controller node to manually drive the rover in Gazebo.
+Verified visually that the script works.
 
 **Known limitations:**
-* Works exclusively in the XY-plane and ignores any bumps or elevation in Z-axis.
-* Sends instantaneous velocity commands without any accelearation or time motor needs.
+Works exclusively in the XY-plane and ignores any bumps or elevation in Z-axis.
+Sends instantaneous velocity commands without any accelearation or time motor needs.
