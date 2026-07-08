@@ -1,4 +1,4 @@
-# Project Documentation
+# Project Documentation Week3
 
 ## For ROS2 questions
 
@@ -68,3 +68,46 @@ Running ros2 run tf2_tools view_frames to ensure the link hierarchy matches the 
 **Known Limitations:**
 Works only in XY-plane.
 
+
+# Project Documentation Week4
+
+### For Problem 1:
+
+**Approach:**
+Found slope of line joining wheel and point O hence the wheel must be perpendicular to that line.
+
+**Assumptions:**
+Ignoring slip angles.
+
+**Challenges:**
+Doing the complex calculations like finding tan inverse.
+
+**Testing Implementations:**
+Used AI to check if solution was correct.
+
+**Known Limitations:**
+I couldn't find any.
+
+### For Problem 2:
+
+**Approach:**
+* Calculated X and Y distances from centers of rotation to compute tangent steering angles.
+* Subscribed to `/cmd_vel`.
+* Calculated velocity and steering angle for each wheel using rigid body kinematics.
+* Enforced ±90° steering limits.
+* Published commands to hardware controllers.
+
+**Assumptions:**
+* No wheel slipping or any slip angles.
+* Runs on a 2D plane.
+
+**Challenges:**
+* Writing Python code from known Double Ackermann geometry.
+
+**Testing Implementation:**
+* Used `teleop_twist_keyboard` alongside the controller node to manually drive the rover in Gazebo.
+* Verified visually that the script works.
+
+**Known limitations:**
+* Works exclusively in the XY-plane and ignores any bumps or elevation in Z-axis.
+* Sends instantaneous velocity commands without any accelearation or time motor needs.
