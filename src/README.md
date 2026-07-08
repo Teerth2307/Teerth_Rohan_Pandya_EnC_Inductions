@@ -86,7 +86,7 @@ Doing the complex calculations like finding tan inverse.
 Used AI to check if solution was correct.
 
 **Known Limitations:**
-I couldn't find any.
+IDoesn't work in real as we ignore slip angles.
 
 ### For Problem 2:
 
@@ -110,4 +110,4 @@ Verified visually that the script works.
 
 **Known limitations:**
 Works exclusively in the XY-plane and ignores any bumps or elevation in Z-axis.
-Sends instantaneous velocity commands without any accelearation or time motor needs.
+Sends instantaneous velocity commands without any acceleration or time motor needs.
